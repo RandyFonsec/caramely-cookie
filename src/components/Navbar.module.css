@@ -80,15 +80,14 @@
   flex-direction: column;
   padding-block: 10px;
 
-  /* Inicialmente oculto y fuera de la vista */
-  transform: translateX(100%); /* Comienza fuera de la pantalla */
-  opacity: 0; /* Comienza invisible */
-  transition: transform 0.3s ease, opacity 0.3s ease; /* Transiciones para la animación */
-}
+  
+  transform: translateX(100%); 
+  opacity: 0; 
+  transition: transform 0.3s ease, opacity 0.3s ease; 
 
 .mobileMenu.show {
-  transform: translateX(0); /* Desliza el menú hacia adentro */
-  opacity: 1; /* Hace que el menú sea visible */
+  transform: translateX(0);
+  opacity: 1;
 }
 
 .hamburgerButton {
@@ -99,12 +98,11 @@
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
-  color: white; /* Color del texto al pasar el mouse */
-}
+  color: white;
 
 .hamburgerButton:hover {
   background-color: #ff0cef;
-  color: white; /* Color del texto al pasar el mouse */
+  color: white;
 }
 
 @media (max-width: 768px) {

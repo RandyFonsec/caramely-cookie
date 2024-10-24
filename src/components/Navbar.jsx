@@ -23,10 +23,8 @@ function Navbar() {
           {!show && <button className={styles.hamburgerButton} onClick={() => setShow(true)}>☰</button>}
         </div>
 
-        {/* Aplicar la clase 'show' si el menú está visible */}
         <div className={`${styles.mobileMenu} ${show ? styles.show : ''}`}>
           <button className={styles.hamburgerButton} onClick={() => setShow(false)}>X</button>
-          {/* Aquí puedes agregar más enlaces o contenido para el menú */}
           <Link to="/products" className={styles.linkButton}>Products</Link>
           <Link to="/about" className={styles.linkButton}>About Us</Link>
           <Link to="/contact" className={styles.linkButton}>Contact</Link>
