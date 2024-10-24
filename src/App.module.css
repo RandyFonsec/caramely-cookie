@@ -1,0 +1,16 @@
+.navbar {
+    position: sticky;
+    top: 0; /* La barra se pegará al tope de la ventana al hacer scroll */
+    z-index: 100; /* Asegúrate de que esté sobre otros elementos */
+    background-color: white; /* Establece el fondo para que sea visible si se superpone */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Opcional: agrega una sombra para que destaque */
+  }
+  
+.rect{
+    background-color: #FF0000;
+    width: 350px;
+    height: 350px;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
