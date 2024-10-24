@@ -4,15 +4,16 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  position: sticky;
   width: 100%;
   height: auto;
-  position: sticky;
-  top: 0; 
-  z-index: 100; 
+  top: 0;
+  z-index: 2;
   box-shadow: 0px 11px 22px -4px rgba(0, 0, 0, 0.6);
   margin-bottom: 10px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
+
 .rectangle {
   background-color: var(--caramely-pink);
   width: 100%;
@@ -53,4 +54,69 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.desktop {
+  z-index: 2;
+  display: block;
+}
+.mobile {
+  z-index: 2;
+  display: none;
+  margin-right: 15px;
+}
+
+.mobileMenu {
+  position: absolute;
+  background-color: var(--caramely-pink);
+  z-index: 10;
+  top: 0px;
+  left: 0;
+  right: 0;
+  width: 50%;
+  margin-left: 50%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  padding-block: 10px;
+
+  /* Inicialmente oculto y fuera de la vista */
+  transform: translateX(100%); /* Comienza fuera de la pantalla */
+  opacity: 0; /* Comienza invisible */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Transiciones para la animación */
+}
+
+.mobileMenu.show {
+  transform: translateX(0); /* Desliza el menú hacia adentro */
+  opacity: 1; /* Hace que el menú sea visible */
+}
+
+.hamburgerButton {
+  background-color: var(--caramely-pink);
+  font-size: 20px !important;
+  border: 1px solid #bca7a7 !important;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  color: white; /* Color del texto al pasar el mouse */
+}
+
+.hamburgerButton:hover {
+  background-color: #ff0cef;
+  color: white; /* Color del texto al pasar el mouse */
+}
+
+@media (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  .mobileMenu {
+    display: none;
+  }
 }

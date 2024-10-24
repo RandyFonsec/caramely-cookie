@@ -9,10 +9,11 @@ import styles from "./App.module.css";
 
 const App = () => {
   return (
+    <div className={styles.body}>
     <Router>
       <div>
         <Navbar className={styles.navbar} />
-
+      
         <div className={styles.rect}></div>
         <div className={styles.rect}></div>
         <div className={styles.rect}></div>
@@ -30,6 +31,7 @@ const App = () => {
         </Routes>
       </div>
     </Router>
+    </div>
   );
 };
 

@@ -8,9 +8,12 @@
   
 .rect{
     background-color: #FF0000;
-    width: 350px;
+    width: 400px;
     height: 350px;
 }
-body {
-  font-family: 'Poppins', sans-serif;
+
+
+.body{
+    width: 100dvw;
+    height: 100dvh;
 }
