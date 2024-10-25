@@ -1,10 +1,13 @@
-import React from 'react';
+import styles from './About.module.css';
+import AboutGrid from '../components/AboutGrid';
 
-function About(){
+const About = () => {
   return (
-    <div>
-      <h2>About</h2>
-      <p>About!</p>
+    <div className={styles.aboutPage}>
+      <div className={styles.contentContainer}>
+        <h1 className={styles.title}>About Us</h1>
+        <AboutGrid />
+      </div>
     </div>
   );
 };
