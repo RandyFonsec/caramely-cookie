@@ -1,0 +1,38 @@
+.productCard {
+    background: white;
+    border-radius: 8px;
+    margin: 20px 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #FF6B6B; 
+  }
+  
+  .imageContainer {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+  }
+  
+  .productImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .contentContainer {
+    flex: 1;
+    color: white;
+  }
+  
+  .productName {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .productDescription {
+    font-size: 1rem;
+    line-height: 1.5;
+  }

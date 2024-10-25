@@ -1,0 +1,33 @@
+.listContainer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .header {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .header h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .productsGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .listContainer {
+      padding: 1rem;
+    }
+  
+    .productsGrid {
+      gap: 1rem;
+    }
+  }

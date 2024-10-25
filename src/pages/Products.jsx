@@ -1,10 +1,14 @@
-import React from 'react';
+import ProductList from '../components/ProductList';
+import styles from './Products.module.css';
 
-function Products(){
+const Products = () => {
   return (
-    <div>
-      <h2>Products</h2>
-      <p>Products!</p>
+    <div className={styles.productsPage}>
+      <div className={styles.backgroundPattern}></div>
+      
+      <div className={styles.contentContainer}>
+        <ProductList />
+      </div>
     </div>
   );
 };
