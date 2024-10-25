@@ -14,14 +14,14 @@ const App = () => {
       <div>
         <Navbar className={styles.navbar} />
       
+        {/* <div className={styles.rect}></div>
         <div className={styles.rect}></div>
         <div className={styles.rect}></div>
         <div className={styles.rect}></div>
         <div className={styles.rect}></div>
         <div className={styles.rect}></div>
         <div className={styles.rect}></div>
-        <div className={styles.rect}></div>
-        <div className={styles.rect}></div>
+        <div className={styles.rect}></div> */}
 
         <Routes>
           <Route path="/" element={<Home />} />
