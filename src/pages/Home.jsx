@@ -38,7 +38,7 @@ function Home() {
       </div>
 
       <div className={styles.carrouselDiv}>
-        <h2 className="mb-5">Check our cookies:</h2>
+        <h2 className="mb-5 fs-1 fw-bold">Some of our cookies:</h2>
         <Carousel>
           {images.map((url, index) => (
             <Carousel.Item key={index}>
