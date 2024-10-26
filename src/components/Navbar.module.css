@@ -25,6 +25,7 @@
 .logo {
   flex: 14 0 0;
   z-index: 2;
+  margin-left: 5px;
 }
 
 .linkButton {
@@ -45,7 +46,7 @@
 }
 
 .backgroundImage {
-  background-image: url("../assets/caramely-cookie_secundario_red.png");
+  background-image: url("../assets/home-logo.png");
   background-size: cover;
   background-position: center;
   width: 300px;
