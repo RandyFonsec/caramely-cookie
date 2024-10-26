@@ -1,0 +1,124 @@
+@import url("../common/CommonStyles.module.css");
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.backgroundImage {
+  background-image: url("../assets/cookie-photo1.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  opacity: 80%;
+  position: relative;
+}
+
+.cookieCard {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 4rem;
+  margin-bottom: 10rem;
+  width: 350px;
+  height: 250px;
+  background-color: rgba(212, 183, 183, 0.555);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--caramely-white);
+}
+
+.cookieCard p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.infoDiv {
+  width: 100%;
+  height: 250px;
+}
+
+.frameContainer {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-color: var(--caramely-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.imageTopLeft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: auto;
+}
+
+.imageBottomRight {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  height: auto;
+}
+
+.infoText {
+  font-size: 1.5rem;
+  color: var(-caramely--black);
+  max-width: 50%;
+  margin-block: 10px;
+  padding-block: 15px;
+}
+
+.carrouselDiv {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  padding: 15px;
+  padding-block: 2rem;
+  background-color: var(--caramely-pink);
+  margin-inline: 2rem;
+}
+
+.carrouselImage {
+  max-width: 500px;
+  max-height: 500px;
+  
+}
+
+@media (max-width: 768px) {
+  .cookieCard {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .cookieCard p {
+    font-size: 1.5rem;
+  }
+
+  .infoText {
+    max-width: 90%;
+  }
+  .frameContainer {
+    height: 650px;
+  }
+}
