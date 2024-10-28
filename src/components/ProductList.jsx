@@ -6,27 +6,33 @@ const ProductList = () => {
   const [products, setProducts] = useState([
     {
       id: 1,
-      name: "Name of the cookie",
-      description: "Info",
-      image: "/src/assets/cookie-image.png"
+      name: "Carrot Cake",
+      description: "Spiced carrot, with walnuts and cream cheese frosting",
+      image: "/src/assets/cookie1.png"
     },
     {
       id: 2,
-      name: "Name of the cookie",
-      description: "Info",
-      image: "/src/assets/cookie-image.png"
+      name: "Chocolate Chip",
+      description: "Our Chocolate Chip will please your inner sweet tooth",
+      image: "/src/assets/cookie2.png"
     },
     {
       id: 3,
-      name: "Name of the cookie",
-      description: "Info",
-      image: "/src/assets/cookie-image.png"
+      name: "Lemon Crinkle",
+      description: "Butter and lemon, wrapped in sugar clouds",
+      image: "/src/assets/cookie3.png"
     },
     {
       id: 4,
-      name: "Name of the cookie",
-      description: "Info",
-      image: "/src/assets/cookie-image.png"
+      name: "Red Velvet Crinkle",
+      description: "Decadent Red Velvet filled with white chocolate",
+      image: "/src/assets/cookie4.png"
+    },
+    {
+      id: 5,
+      name: "Sea Salt Toffee",
+      description: "Chocolate Chip with buttercream and our buttery toffee",
+      image: "/src/assets/cookie5.png"
     }
   ]);
 

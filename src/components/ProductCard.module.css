@@ -1,38 +1,56 @@
 .productCard {
-    background: white;
-    border-radius: 8px;
-    margin: 20px 0;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    background-color: #FF6B6B; 
-  }
-  
-  .imageContainer {
-    width: 150px;
-    height: 150px;
-    flex-shrink: 0;
-  }
-  
-  .productImage {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 8px;
-  }
-  
-  .contentContainer {
-    flex: 1;
-    color: white;
-  }
-  
-  .productName {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
-  
-  .productDescription {
-    font-size: 1rem;
-    line-height: 1.5;
-  }
+  background: #FF7B7B; /* Un coral más vibrante */
+  border-radius: 8px;
+  margin: 20px 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade profundidad */
+}
+
+.imageContainer {
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+  /* Añade un sutil borde blanco alrededor de la imagen */
+  border-radius: 8px;
+}
+
+.productImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px; /* Ligeramente menor que el contenedor */
+}
+
+.contentContainer {
+  flex: 1;
+  color: #FFFFFF;
+  padding: 15px;
+  /* Fondo más oscuro para mejor contraste */
+  background-color: rgba(192, 57, 57, 0.3); /* Un rojo más oscuro semi-transparente */
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Borde sutil */
+}
+
+.productName {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #FFF;
+  /* Sombra de texto más pronunciada para mejor legibilidad */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.productDescription {
+  font-size: 1.3rem;
+  line-height: 1.7;
+  font-weight: 600;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  color: #FFE8E8; /* Un blanco ligeramente rosado */
+  letter-spacing: 0.5px;
+}
