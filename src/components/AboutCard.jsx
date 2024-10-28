@@ -6,8 +6,10 @@ const AboutCard = ({ title, description, image, backgroundColor }) => {
       <div className={styles.imageContainer}>
         <img src={image} alt={title} className={styles.image} />
       </div>
-      <h3 className={styles.title}>{title}</h3>
-      <p className={styles.description}>{description}</p>
+      <div className={styles.textContainer}>
+        <h3 className={styles.title}>{title}</h3>
+        <p className={styles.description}>{description}</p>
+      </div>
     </div>
   );
 };

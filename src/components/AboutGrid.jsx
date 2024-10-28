@@ -5,27 +5,27 @@ const AboutGrid = () => {
   const aboutItems = [
     {
       title: "Mission",
-      description: "Info",
+      description: "Bringing smiles to people's faces with delicious, high-quality products.",
       image: "/src/assets/caramely-cookie_secundario_red.png",
       backgroundColor: "#FFA07A" 
     },
     {
       title: "Vision",
-      description: "Info",
+      description: "To be the preferred choice for fresh baked cookies and cookie desserts nationwide.",
       image: "/src/assets/caramely-cookie_secundario_red.png",
       backgroundColor: "#FFB6C1" 
     },
     {
       title: "Values",
-      description: "Info",
+      description: "We use premium, local and fresh ingredients, along with sustainable packaging, to create the highest quality cookies.",
       image: "/src/assets/caramely-cookie_secundario_red.png",
-      backgroundColor: "#FFB6C1" 
+      backgroundColor: "#FFB6C1"
     },
     {
       title: "Value Proposition",
-      description: "Info",
+      description: "Premium Ingredients, Addictive Cookies.",
       image: "/src/assets/caramely-cookie_secundario_red.png",
-      backgroundColor: "#FFA07A" 
+      backgroundColor: "#FFA07A"
     }
   ];
 
