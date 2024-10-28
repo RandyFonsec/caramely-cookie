@@ -6,25 +6,25 @@ const AboutGrid = () => {
   const aboutItems = [
     {
       title: "Mission",
-      description: "Bringing smiles to people's faces with delicious, high-quality products.",
+      description: "Bringing joy to our customers with cookies crafted from the finest ingredients for a taste you won’t forget.",
       image: logo,
       backgroundColor: "#FFA07A" 
     },
     {
       title: "Vision",
-      description: "To be the preferred choice for fresh baked cookies and cookie desserts nationwide.",
+      description: "To become the top choice for freshly baked cookies and dessert experiences across the nation.",
       image: logo,
       backgroundColor: "#FFB6C1" 
     },
     {
       title: "Values",
-      description: "We use premium, local and fresh ingredients, along with sustainable packaging, to create the highest quality cookies.",
+      description: "We prioritize quality, using local, premium ingredients and sustainable packaging to craft cookies with integrity and excellence.",
       image: logo,
       backgroundColor: "#FFB6C1"
     },
     {
       title: "Value Proposition",
-      description: "Premium Ingredients, Addictive Cookies.",
+      description: "Irresistible cookies made with premium ingredients for a treat that’s simply unforgettable.",
       image: logo,
       backgroundColor: "#FFA07A"
     }
