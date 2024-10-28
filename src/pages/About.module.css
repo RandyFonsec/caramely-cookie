@@ -6,7 +6,7 @@
   background-image: url("../assets/background-pattern.png");
   background-repeat: repeat;
   background-position: center top;
-  background-size: 500px;
+  background-size: 300px;
 }
 
 .contentContainer {
@@ -25,7 +25,22 @@
   font-weight: bold;
 }
 
+@media (max-width: 1024px) {
+  .contentContainer {
+    padding: 1.5rem;
+  }
+
+  .title {
+    font-size: 2.25rem;
+    margin: 1.75rem 0;
+  }
+}
+
 @media (max-width: 768px) {
+  .aboutPage {
+    background-size: 200px;
+  }
+
   .contentContainer {
     padding: 1rem;
   }
@@ -33,5 +48,16 @@
   .title {
     font-size: 2rem;
     margin: 1.5rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutPage {
+    background-size: 150px;
+  }
+
+  .title {
+    font-size: 1.75rem;
+    margin: 1.25rem 0;
   }
 }
