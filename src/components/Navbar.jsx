@@ -40,7 +40,7 @@ function Navbar() {
           {!show && <button className={styles.hamburgerButton} onClick={() => setShow(true)}>☰</button>}
         </div>
 
-        {/* Menu Móvil */}
+
         <div ref={mobileMenuRef} className={`${styles.mobileMenu} ${show ? styles.show : ''}`}>
           <button className={styles.hamburgerButton} onClick={() => setShow(false)}>X</button>
           <Link to="/products" className={styles.linkButton}>Products</Link>
