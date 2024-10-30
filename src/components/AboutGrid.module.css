@@ -7,6 +7,11 @@
   padding: 2rem;
 }
 
+.fullWidth {
+  grid-column: 1 / -1; 
+  min-height: 500px; 
+}
+
 @media (max-width: 1024px) {
   .grid {
     gap: 1.5rem;
@@ -19,5 +24,10 @@
     grid-template-columns: 1fr;
     gap: 1rem;
     padding: 1rem;
+  }
+  
+  .fullWidth {
+    grid-column: auto;
+    min-height: 400px;
   }
 }

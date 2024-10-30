@@ -1,8 +1,8 @@
 import styles from './AboutCard.module.css';
 
-const AboutCard = ({ title, description, image, backgroundColor }) => {
+const AboutCard = ({ title, description, image, backgroundColor, className }) => {
   return (
-    <div className={styles.card} style={{ backgroundColor }}>
+    <div className={`${styles.card} ${className || ''}`} style={{ backgroundColor }}>
       <div className={styles.imageContainer}>
         <img src={image} alt={title} className={styles.image} />
       </div>
