@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Products from "./pages/Products";
 import About from "./pages/About";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer"; // Importa el Footer
 import styles from "./App.module.css";
 
 const App = () => {
@@ -21,6 +22,8 @@ const App = () => {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
+          
+          <Footer />
         </div>
       </Router>
     </div>

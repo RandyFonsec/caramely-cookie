@@ -1,0 +1,55 @@
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.footerLinks {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.footerSocial {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  color: #ffffff;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.icon:hover {
+  color: #007bff; /* Cambia el color al pasar el cursor */
+}
+
+.footerContact p {
+  margin: 5px 0;
+}
+
+.logo {
+  width: 35px;
+  height: 35px;
+  transition: transform 0.3s ease;
+}
